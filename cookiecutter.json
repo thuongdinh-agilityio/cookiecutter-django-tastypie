@@ -1,0 +1,7 @@
+{
+    "project_name": "project_name is the title of the project. e.g. ABC Inc.",
+    "repo_name":"repo_name is used for describing the directory structure. e.g. abc",
+    "description": "A short description of the project.",
+    "version": "0.1.0",
+    "now": "2014/12/23"
+}
