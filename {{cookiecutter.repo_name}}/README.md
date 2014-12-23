@@ -1,4 +1,4 @@
-{{cookiecutter.projectname}}
+{{cookiecutter.project_name}}
 ==============================
 
 {{cookiecutter.description}}
@@ -8,13 +8,13 @@ LICENSE: BSD
 Settings
 --------
 
-{{cookiecutter.projectname}} relies extensively on environment
+{{cookiecutter.project_name}} relies extensively on environment
 settings which **will not work with Apache/modwsgi setups**. It has
 been deployed successfully with both Gunicorn/Nginx and even
 uWSGI/Nginx.
 
 For configuration purposes, the following table maps the
-‘{{cookiecutter.projectname}}’ environment variables to their Django
+‘{{cookiecutter.project_name}}’ environment variables to their Django
 setting:
 
 |Environment Variable                    |Django Setting               |Development Default                             |Production Default
