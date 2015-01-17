@@ -21,9 +21,9 @@ TEMPLATE_DEBUG = DEBUG
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': '%s-dev' % PROJECT_NAME.lower(),
-        'USER': '',
-        'PASSWORD': '',
+        'NAME': 'django_dev',
+        'USER': 'django_dev',
+        'PASSWORD': 'django_dev',
         'HOST': 'localhost',
         'PORT': '5432',
     }
