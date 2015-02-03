@@ -70,7 +70,6 @@ DJANGO_APPS = (
 THIRD_PARTY_APPS = (
     'authtools',
     'django_extensions',
-    'django_rq',
     'floppyforms',
     'pipeline'
 )
@@ -81,8 +80,6 @@ PROJECT_APPS = (
 
 EXTENSION_APPS = (
     'extensions.authtools',
-    'extensions.django_rq',
-    'extensions.rq_scheduler',
     'extensions.sites',
 )
 

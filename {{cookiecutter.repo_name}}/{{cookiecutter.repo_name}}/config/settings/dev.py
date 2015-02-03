@@ -60,25 +60,6 @@ CACHES['default'] = CACHE_ENGINES[os.getenv('CACHE', 'dummy')]
 SESSION_ENGINE = 'django.contrib.sessions.backends.cached_db'
 ########## END CACHE CONFIGURATION
 
-
-########## REDIS QUEUE CONFIGURATION
-# https://github.com/ui/django-rq#support-for-django-redis-and-django-redis-cache
-RQ_QUEUES = {
-    'default': {
-        'USE_REDIS_CACHE': 'redis'
-    },
-    'high': {
-        'USE_REDIS_CACHE': 'redis'
-    },
-    'low': {
-        'USE_REDIS_CACHE': 'redis'
-    }
-}
-
-RQ_SHOW_ADMIN_LINK = True
-########## END REDIS QUEUE CONFIGURATION
-
-
 ########## LOGGING CONFIGURATION
 # https://docs.djangoproject.com/en/dev/ref/settings/#logging
 LOGGERS = {

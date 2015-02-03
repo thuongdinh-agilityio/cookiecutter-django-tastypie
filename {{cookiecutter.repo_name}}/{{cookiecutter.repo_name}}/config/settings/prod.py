@@ -125,20 +125,6 @@ if 'REDISCLOUD_URL' in os.environ:
         }
     }
 
-    RQ_QUEUES = {
-        'default': {
-            'USE_REDIS_CACHE': 'default'
-        },
-        'high': {
-            'USE_REDIS_CACHE': 'default'
-        },
-        'low': {
-            'USE_REDIS_CACHE': 'default'
-        }
-    }
-
-    RQ_SHOW_ADMIN_LINK = True
-
     SESSION_ENGINE = 'django.contrib.sessions.backends.cached_db'
 ########## END CACHE/QUEUE CONFIGURATION
 
