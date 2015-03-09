@@ -99,3 +99,6 @@ Fabric==1.7.0
 # Production WSGI server with workers
 # https://github.com/benoitc/gunicorn
 gunicorn==19.1.1
+
+# Software Analytics service
+newrelic==2.42.0.35
